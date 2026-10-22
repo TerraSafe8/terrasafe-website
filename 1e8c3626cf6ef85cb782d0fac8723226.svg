@@ -1,0 +1,14 @@
+<svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(10,10)">
+    <circle cx="120" cy="120" r="114" fill="none" stroke="#FFFFFF" stroke-width="3"></circle>
+    <circle cx="120" cy="120" r="104" fill="none" stroke="#FFFFFF" stroke-width="1.4"></circle>
+    <path d="M120,58              C150,72 163,102 156,131              C149,157 129,172 120,176              C111,172 91,157 84,131              C77,102 90,72 120,58 Z" fill="#FFFFFF"></path>
+    <line x1="120" y1="108" x2="120" y2="174" stroke="#1E5631" stroke-width="4"></line>
+    <path d="M40,156 C68,142 92,142 120,156 C148,170 172,170 200,156" fill="none" stroke="#7FD19A" stroke-width="7" stroke-linecap="round"></path>
+  </g>
+
+  <g transform="translate(270,0)">
+    <text x="0" y="122" font-family="Poppins" font-weight="700" font-size="86" fill="#7FD19A">Terra<tspan dx="6" fill="#FFFFFF">Safe</tspan></text>
+    <text x="4" y="168" font-family="Poppins" font-weight="500" font-size="34" letter-spacing="10" fill="#4CA771">SOLUTIONS</text>
+  </g>
+</svg>
