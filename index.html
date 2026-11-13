@@ -15,11 +15,11 @@
 body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
 *{box-sizing:border-box}
 .navlink{color:#1F4D2E;text-decoration:none;font-weight:600;letter-spacing:.2px}
-.navlink:hover{color:#7AC79C}
+.navlink:hover{color:#8BC34A}
 .ctalink{text-decoration:none}
 @media (max-width:720px){
   .grid-3{grid-template-columns:1fr !important}
-  .grid-4{grid-template-columns:1fr 1fr !important}
+  .grid-4{grid-template-columns:1fr 1fr !important} 
   .grid-2{grid-template-columns:1fr !important}
   .sec{padding-left:28px !important;padding-right:28px !important}
   .hero h1{font-size:30px !important}
@@ -148,12 +148,12 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,san
 
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"navy":{"editor":"color","default":"#1F4D2E"},"accent":{"editor":"color","default":"#7AC79C"},"bg":{"editor":"color","default":"#FFFFFF"},"text":{"editor":"color","default":"#222222"},"$preview":{"width":1280,"height":2000}}'>
+<script type="text/x-dc" data-dc-script data-props='{"navy":{"editor":"color","default":"#1F4D2E"},"accent":{"editor":"color","default":"#8BC34A"},"bg":{"editor":"color","default":"#FFFFFF"},"text":{"editor":"color","default":"#222222"},"$preview":{"width":1280,"height":2000}}'>
 class Component extends DCLogic {
 renderVals() {
 return {
-navy: this.props.navy ?? '#1F3A5F',
-accent: this.props.accent ?? '#2E7D6B',
+navy: this.props.navy ?? '#1F4D2E',
+accent: this.props.accent ?? '#8BC34A',
 bg: this.props.bg ?? '#FFFFFF',
 text: this.props.text ?? '#222222',
 };
